@@ -11,6 +11,9 @@
     <!-- Bootstrap icon -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
 
+    <!-- Aos -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
     <!-- My CSS -->
     <link rel="stylesheet" href="style.css" />
     <title>My Portfolio | Dicky Bagus</title>
@@ -18,7 +21,7 @@
 
   <body id="home">
     <!-- navbar -->
-    <nav class="navbar navbar-expand-lg navbar-dark bg-primary shadow-sm fixed-top">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-success shadow-sm fixed-top">
       <div class="container">
         <a class="navbar-brand" href="#">Dicky Bagus Wicaksono</a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -46,7 +49,7 @@
 
     <!-- Jumbotron -->
     <section class="jumbotron text-center">
-      <img src="img/dickybagus.jpg" alt="dicky bagus" width="200" class="rounded-circle img-thumbnail" />
+      <img src="img/dickybagus.jpg" alt="dicky bagus" width="200" class="rounded-circle img-thumbnail"/>
       <h1 class="display-4">Dicky Bagus Wicaksono</h1>
       <br>
       <p class="lead">Pekalongan 24 April 1998</p>
@@ -77,14 +80,14 @@
           </div>
         </div>
         <div class="row justify-content-center fs-5 text-center">
-          <div class="col-md-4">
+          <div class="col-md-4" data-aos="fade-right" data-aos-duration="1000">
             <p>
               Saya, Dicky Bagus Wicaksono lahir di Pekalongan 24 April 1998 lulusan dari Universitas Semarang sarjana S-1 Sistem Informasi dengan gelar S.Kom. Memiliki kesukaan dan ketertarikan pada pelayanan publik, ilmu komputer, segala sesuatu yang 
               berkaitan dengan teknologi informasi dan komunikasi serta menyukai hal baru untuk dipelajari.
               Mencari peluang kerja agar dapat mengembangkan karir saya dan dapat berkontribusi pada perusahaan dengan keterampilan yang saya miliki.
             </p>
           </div>
-          <div class="col-md-4">
+          <div class="col-md-4" data-aos="fade-left" data-aos-duration="1000" data-aos-delay="200">
           <p>Saya memiliki rasa tanggung jawab yang tinggi, disiplin dalam melakukan sesuatu dan mampu memanajemen waktu dengan baik. Menyelesaikan tugas 
             secepat mungkin tanpa harus menunda merupakan prioritas utama. Saya terbiasa melakukan sesuatu menggunakan komputer dan menyukai bidang tersebut dan terbukti pada latar belakang pendidikan saya. 
             Saya memiliki kemampuan komunikasi dan jiwa sosial yang baik, mampu belajar sesuatu yang baru dan cepat dalam menanggapi arahan.</p>
@@ -106,7 +109,7 @@
             <div class="row justify-content-center">
 
                 <div class="col-md-4 mb-3">
-                    <div class="card">
+                    <div class="card" data-aos="flip-left" data-aos-duration="500" data-aos-delay="200">
                         <img src="img/projects/1.jpg" class="card-img-top" alt="project1">
                         <div class="card-body">
                           <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
@@ -115,7 +118,7 @@
                 </div>
 
                 <div class="col-md-4 mb-3">
-                    <div class="card">
+                    <div class="card" data-aos="flip-left" data-aos-duration="500" data-aos-delay="100">
                         <img src="img/projects/2.jpg" class="card-img-top" alt="project2">
                         <div class="card-body">
                           <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
@@ -124,7 +127,7 @@
                 </div>
 
                 <div class="col-md-4 mb-3">
-                    <div class="card">
+                    <div class="card" data-aos="flip-left" data-aos-duration="500" data-aos-delay="100">
                         <img src="img/projects/3.jpg" class="card-img-top" alt="project3">
                         <div class="card-body">
                           <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
@@ -133,7 +136,7 @@
                 </div>
 
                 <div class="col-md-4 mb-3">
-                    <div class="card">
+                    <div class="card" data-aos="flip-left" data-aos-duration="500" data-aos-delay="300">
                         <img src="img/projects/4.jpg" class="card-img-top" alt="project4">
                         <div class="card-body">
                           <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
@@ -142,7 +145,7 @@
                 </div>
 
                 <div class="col-md-4 mb-3">
-                    <div class="card">
+                    <div class="card" data-aos="flip-left" data-aos-duration="500" data-aos-delay="400">
                         <img src="img/projects/6.jpg" class="card-img-top" alt="project6">
                         <div class="card-body">
                           <p class="card-text">Sistem Informasi Rantai Pasokan Sembako Perum Bulog Sub Divre Semarang.
@@ -161,6 +164,72 @@
         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#ffffff" fill-opacity="1" d="M0,256L48,240C96,224,192,192,288,149.3C384,107,480,53,576,58.7C672,64,768,128,864,165.3C960,203,1056,213,1152,202.7C1248,192,1344,160,1392,144L1440,128L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"></path></svg>
     </section>
     <!-- Akhir Projets -->
+
+    <!-- Gallery -->
+
+    <section id="gallery">
+      <div class="container">
+        <div class="row text-center">
+          <div class="col">
+              <h2>Gallery</h2>
+          </div>
+      </div>
+      <div class="row justify-content-center">
+        <div class="col-md-3">
+          <a href="#">
+            <img src="img/gallery/thumbnail/1.jpg" alt="gambar 1" class="img-fluid gallery-img">
+          </a>
+        </div>
+        <div class="col-md-3">
+          <a href="#">
+            <img src="img/gallery/thumbnail/2.jpg" alt="gambar 2" class="img-fluid gallery-img">
+          </a>
+        </div>
+        <div class="col-md-3">
+          <a href="#">
+            <img src="img/gallery/thumbnail/3.jpg" alt="gambar 3" class="img-fluid gallery-img">
+          </a>
+        </div>
+        <div class="col-md-3">
+          <a href="#">
+            <img src="img/gallery/thumbnail/4.jpg" alt="gambar 4" class="img-fluid gallery-img">
+          </a>
+        </div>
+        <div class="col-md-3">
+          <a href="#">
+            <img src="img/gallery/thumbnail/5.jpg" alt="gambar 5" class="img-fluid gallery-img">
+          </a>
+        </div>
+        <div class="col-md-3">
+          <a href="#">
+            <img src="img/gallery/thumbnail/6.png" alt="gambar 6" class="img-fluid gallery-img">
+          </a>
+        </div>
+        <div class="col-md-3">
+          <a href="#">
+            <img src="img/gallery/thumbnail/7.jpg" alt="gambar 7" class="img-fluid gallery-img">
+          </a>
+        </div>
+        <div class="col-md-3">
+          <a href="#">
+            <img src="img/gallery/thumbnail/8.png" alt="gambar 8" class="img-fluid gallery-img">
+          </a>
+        </div>
+        <div class="col-md-3">
+          <a href="#">
+            <img src="img/gallery/thumbnail/9.jpg" alt="gambar 9" class="img-fluid gallery-img">
+          </a>
+        </div>
+        <div class="col-md-3">
+          <a href="#">
+            <img src="img/gallery/thumbnail/10.jpg" alt="gambar 10" class="img-fluid gallery-img">
+          </a>
+        </div>
+      </div>
+      </div>
+    </section>
+
+    <!-- Akhir Gallery-->
 
     <!-- Contact -->
     <section id="contact">
@@ -207,18 +276,41 @@
               </div>
             </div>
         </div>
-        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#0d6efd" fill-opacity="1" d="M0,128L0,256L1440,256L1440,320L0,320L0,320Z"></path></svg>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#198754" fill-opacity="1" d="M0,64L0,288L1440,288L1440,320L0,320L0,320Z"></path></svg>
     </section>
     <!-- Akhir Contact -->
 
     <!-- Footer -->
-    <footer class="bg-primary text-white text-center pb-5">
+    <footer class="bg-success text-white text-center pb-5">
       <p>Created with <i class="bi bi-balloon-heart-fill text-danger"></i> by <a href="https://www.instagram.com/diickybgs/" target="_blank" class="text-white fw-bold">Dicky Bagus Wicaksono</a></p>
     </footer>
     <!-- Akhir Footer -->
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
-  
+    
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      const galleryImage = document.querySelectorAll('.gallery-img');
+      galleryImage.forEach((img, i) => {
+        img.dataset.aos = 'fade-down';
+        img.dataset.aosDelay = i * 100;
+        img.dataset.aosDuration = 1000;
+      });
+
+      AOS.init({
+        once: true,
+      });
+    </script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.6.1/gsap.min.js"></script>
+    
+
+    <script>
+    
+      gsap.from('.jumbotron img', {duration: 1, y: -100, opacity: 0});
+
+    </script>
+
     <script>
       const scriptURL = 'https://script.google.com/macros/s/AKfycbztHlyAEVuNgvmqpHr7hmFaL3JZIqAjn9bsgE9fn-vM4R25rfS6OP3aE6OLYB0XXST7yg/exec';
       const form = document.forms['contact-form'];
